@@ -1,16 +1,20 @@
 # nmap2025
 
-nmap2025 is a modern and lightweight port scanner written in Python. It is built to provide a fast, asynchronous, and extensible approach to network scanning. Unlike traditional scanners, nmap2025 utilizes low-level packet manipulation with Scapy, allowing for deeper inspection and custom probing techniques.
+nmap2025 is a modern and lightweight port scanner written in Python. It is designed to provide a fast, asynchronous, and extensible approach to network scanning. Unlike traditional scanners, nmap2025 uses low-level TCP/IP techniques via Scapy, allowing for deeper analysis and custom probing.
 
-The tool is ideal for security researchers, penetration testers, and system administrators who require detailed visibility into network services.
+This tool is suitable for security researchers, penetration testers, and network administrators who require detailed insights into hosts and services.
 
-Key highlights:
-- Asynchronous scanning for increased speed and efficiency
-- Custom TCP SYN scanning using Scapy
-- Banner grabbing capabilities
-- Detection of IP ID and TCP timestamp information
-- Multilingual output support (English and Turkish)
-- Command-line interface with rich argument options
-- JSON-formatted results for easy parsing
+## Features
 
-nmap2025 is designed to be minimal, modular, and easily adaptable to various scanning scenarios. It aims to offer deeper insight than conventional port scanners while remaining scriptable and user-friendly.
+- Asynchronous scanning for high performance
+- Custom TCP SYN scans using Scapy
+- Banner grabbing for open ports
+- IP ID and TCP timestamp analysis
+- Multi-language output (English and Turkish)
+- JSON-formatted results
+- Simple and flexible CLI
+
+## Usage
+
+```bash
+python laoth2025nmap.py --target <IP or CIDR> [options]
